@@ -1,7 +1,8 @@
-I have uploaded the Execution Video as a compressed .zip file to comply with GitHub's file size limitations.
-If you have any queries or require clarification regarding the project's functionality, please feel free to refer to the video for detailed execution.
+* I have uploaded the Execution Video as a compressed .zip file to comply with GitHub's file size limitations.
+* If you have any queries or require clarification regarding the project's functionality, please feel free to refer to the video for detailed execution.
+* I have developed this project by closely following the UI/UX design reference provided. Every page layout, component structure, and styling choice was implemented with a focus on matching the reference as accurately as possible. This was done intentionally to demonstrate my attention to detail and ability to translate design specifications into a fully functional and visually consistent user interface.
 
-Tech User:
+Tech Used:
 Backend = Django,Django RestFramework, JWT
 Frontend = React,TailwindCss,Html5
 Database = Mysql
@@ -42,9 +43,18 @@ For Frontend Comments to run Project
 cd frontend
 npm install
 npm install axios
+
+
+
+
 npm install react-router-dom
 npm install react-toastify
 npm install 'js-cookie'
 npm run dev 
 
 """ After running both frontend and backend , Copy frontend Localhost path and paste into the chrome.
+
+HARIPRASATH S
+PYTHON FULL-STACK DEVELOPER
+9360809634
+haridhamo3@gmail.com
