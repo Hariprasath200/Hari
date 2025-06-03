@@ -40,10 +40,11 @@ class CreateorUpdateView(APIView):
         data['teacher']=request.user.id
         name=data['name']
         subject=data['subject']
-        marks=data['marks']
+        marks=int(data['marks'])
+
         try:
             user=Data.objects.get(name=name,subject=subject,teacher=user)
-            user.marks=marks
+            user.marks=user.marks+marks
             user.save()
             return Response({"res":"Data Updated Sucessfully"},status=status.HTTP_200_OK)
         except Data.DoesNotExist:
@@ -54,6 +55,7 @@ class CreateorUpdateView(APIView):
             
             return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)
         
+
 
 class ViewData(APIView):
     permission_classes=[IsAuthenticated]
